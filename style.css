@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+.contenedor{
+    width: max-content;
+    height: 500px;
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+/* texto */
+div h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+}
+
+div p{
+    text-align: center;
+    position: relative;
+}
+.lugar{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.descripcion{
+    color: white;
+}
+
+/* botones */
+.redes{ 
+    text-align: center;
+    margin-top: 30px;
+}
+.redes button{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: none;
+    width: 260px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+.redes button:hover{
+    color: hsl(75, 94%, 57%);
+}
+.redes button:active{
+    background-color: hsl(75, 94%, 57%);;
+}
+.redes button p{
+    margin: 0 auto;
+}
